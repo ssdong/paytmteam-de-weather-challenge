@@ -33,7 +33,7 @@ object WeatherApp {
     import spark.implicits._
 
 		// Some column names from the data file..
-		val countryFullNameCol = "COUNTRY_FULL"
+	  val countryFullNameCol = "COUNTRY_FULL"
 		val meanTemperatureCol = "TEMP"
 		val dateCol = "YEARMODA"
 		val meanWindSpeedCol = "WDSP"
